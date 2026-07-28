@@ -1,0 +1,129 @@
+/* ==========================
+   RESET
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ==========================
+   BODY
+========================== */
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #0F172A;
+    color: #F8FAFC;
+    line-height: 1.6;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+/* ==========================
+   NAVIGATION
+========================== */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0F172A;
+    z-index: 1000;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-family: "Poppins", sans-serif;
+    color: #3B82F6;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #3B82F6;
+}
+/* ==========================
+   HERO
+========================== */
+
+#home {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 120px 40px 60px;
+}
+.hero-content {
+    max-width: 1200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    margin: 15px 0;
+}
+
+.hero-text h2 {
+    color: #3B82F6;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    max-width: 600px;
+}
+.hero-buttons {
+    margin-top: 30px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.hero-buttons a {
+    background: #3B82F6;
+    padding: 14px 28px;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.hero-buttons a:hover {
+    transform: translateY(-3px);
+}
+.hero-image img {
+    width: 350px;
+    border-radius: 20px;
+}
