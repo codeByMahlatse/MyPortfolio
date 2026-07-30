@@ -1,69 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Basic Page Information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Website Title -->
     <title>Mahlatse Sarah Molepo | Portfolio</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-   <header>
-    <nav>
-        <h2>MS Molepo.</h2>
+    <!-- ================= NAVIGATION ================= -->
 
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
 
-    <main>
+        <div class="container">
 
-        <section id="home">
+            <nav>
 
-    <div class="hero-content">
+                <h2 class="logo">MS</h2>
 
-        <div class="hero-text">
+                <ul>
 
-            <p>Hello, I'm</p>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#certifications">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
 
-            <h1>Mahlatse Sarah Molepo</h1>
+                </ul>
 
-            <h2>Final-Year BSc Information Technology Student</h2>
-
-            <p>
-                Passionate about software development,
-                cybersecurity, and building practical
-                solutions that solve real-world problems.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#projects">View Projects</a>
-                <a href="#">Download CV</a>
-            </div>
+            </nav>
 
         </div>
 
-        <div class="hero-image">
+    </header>
 
-            <img src="assets/images/profile.jpg" alt="Mahlatse Sarah Molepo">
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section id="home">
+
+            <div class="container">
+
+                <div class="hero-content">
+
+                    <div class="hero-text">
+
+                        <p>Hello, I'm</p>
+
+                        <h1>Mahlatse Sarah Molepo</h1>
+
+                        <h2>Final-Year BSc Information Technology Student</h2>
+
+                        <p>
+                            Passionate about software development, data analytics,
+                            and cybersecurity. I enjoy building practical
+                            technology solutions that solve real-world problems.
+                        </p>
+
+                        <div class="hero-buttons">
+
+                            <a href="#projects">View Projects</a>
+
+                            <a href="assets/cv/MS_Molepo_CV.pdf"
+   download="MS_Molepo_CV.pdf">
+
+    <i class="fa-solid fa-download"></i>
+
+    Download CV
+
+</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="hero-image">
+
+                        <img src="assets/images/me.jpg"
+                            alt="Mahlatse Sarah Molepo">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about">
+
+            <div class="container">
+
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-content">
+
+                    <div class="about-text">
+
+                        <p>
+                            I'm a final-year Bachelor of Science in Information Technology
+                            student with interests in software development,
+                            data analytics, and cybersecurity.
+                        </p>
+
+                        <p>
+                            I enjoy building software applications, analysing
+                            data to uncover meaningful insights, and exploring
+                            secure technologies that solve real-world challenges.
+                            I'm always eager to learn new tools and improve my
+                            technical skills.
+                        </p>
+
+                        <p>
+                            I'm currently seeking graduate opportunities where
+                            I can contribute, continue learning, and grow as a
+                            technology professional.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills">
+
+    <div class="container">
+
+        <h2 class="section-title">Technical Skills</h2>
+
+        <p class="section-subtitle">
+            Technologies and tools I've used throughout my academic projects and personal development.
+        </p>
+
+        <div class="skills-grid">
+
+            <!-- Programming -->
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>Programming</h3>
+
+                <div class="skill-tags">
+
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>C#</span>
+                    <span>SQL</span>
+
+                </div>
+
+            </div>
+
+            <!-- Web Development -->
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-globe"></i>
+
+                <h3>Web Development</h3>
+
+                <div class="skill-tags">
+
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Flask</span>
+
+                </div>
+
+            </div>
+
+            <!-- Data Analytics -->
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-chart-column"></i>
+
+                <h3>Data Analytics</h3>
+
+                <div class="skill-tags">
+
+                    <span>SQL</span>
+                    <span>Excel</span>
+                    <span>Power BI</span>
+                    <span>Data Visualisation</span>
+
+                </div>
+
+            </div>
+
+            <!-- Cybersecurity -->
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <h3>Cybersecurity</h3>
+
+                <div class="skill-tags">
+
+                    <span>Web Security</span>
+                    <span>OWASP</span>
+                    <span>Vulnerability Assessment</span>
+                    <span>Secure Coding</span>
+
+                </div>
+
+            </div>
+
+            <!-- Tools -->
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                <h3>Tools</h3>
+
+                <div class="skill-tags">
+
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                    <span>Visual Studio</span>
+
+                </div>
+
+            </div>
+
+            <!-- Currently Learning -->
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-book-open"></i>
+
+                <h3>Currently Learning</h3>
+
+                <div class="skill-tags">
+
+                    <span>Cloud Computing</span>
+                    <span>Advanced Data Analytics</span>
+                    <span>Cybersecurity</span>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -71,31 +280,490 @@
 
 </section>
 
-        <section id="about">
+        <!-- ================= PROJECTS ================= -->
 
-        </section>
+       <section id="projects">
 
-        <section id="skills">
+    <div class="container">
 
-        </section>
+        <h2 class="section-title">Featured Projects</h2>
 
-        <section id="projects">
+        <p class="section-subtitle">
+            A collection of software development, data analytics, and cybersecurity projects that showcase my technical skills and passion for building practical solutions.
+        </p>
 
-        </section>
+        <!-- Project Filter -->
 
-        <section id="experience">
+        <div class="project-filter">
 
-        </section>
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
 
-        <section id="certifications">
+            <button class="filter-btn" data-filter="software">
+                <i class="fa-solid fa-code"></i>
+                Software
+            </button>
 
-        </section>
+            <button class="filter-btn" data-filter="analytics">
+                <i class="fa-solid fa-chart-line"></i>
+                Data Analytics
+            </button>
 
-        <section id="contact">
+            <button class="filter-btn" data-filter="security">
+                <i class="fa-solid fa-shield-halved"></i>
+                Cybersecurity
+            </button>
 
-        </section>
+        </div>
 
+        <!-- Projects Grid -->
+
+        <div class="projects-grid">
+
+            <!-- ================= SecureScan ================= -->
+
+            <div class="project-card security">
+
+                
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        Cybersecurity
+                    </span>
+
+                    <h3>SecureScan</h3>
+
+                    <p>
+                        A web-based security scanner that analyses website URLs,
+                        checks HTTPS implementation and identifies basic security
+                        indicators using Python Flask.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/codeByMahlatse/SecureScan"
+                           target="_blank">
+
+                            <i class="fa-brands fa-github"></i>
+
+                            View Source Code
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ================= MoneyMind ================= -->
+
+            <div class="project-card software">
+
+                
+
+                <div class="project-content">
+
+                    <span class="project-category">
+                        Software Development
+                    </span>
+
+                    <h3>MoneyMind</h3>
+
+                    <p>
+                        A personal finance application designed to help users
+                        manage budgets, monitor expenses and improve financial
+                        planning through an easy-to-use interface.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>Java</span>
+                        <span>SQL</span>
+
+                    </div>
+
+                    <div class="project-buttons">
+
+                        <a href="https://github.com/codeByMahlatse/MoneyMind"
+                           target="_blank">
+
+                            <i class="fa-brands fa-github"></i>
+
+                            View Source Code
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="project-card software">
+
+    
+
+    <div class="project-content">
+
+        <span class="project-category">
+            Software Development
+        </span>
+
+        <h3>Campus Connect</h3>
+
+        <p>
+            A platform designed to improve communication and collaboration
+            among students by providing easy access to campus information,
+            announcements, and academic resources.
+        </p>
+
+        <div class="tech-stack">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/dimphomphahlele/campusconnect" target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+
+                View Source Code
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="project-card analytics">
+
+    
+
+    <div class="project-content">
+
+        <span class="project-category">
+            Data Analytics
+        </span>
+
+        <h3>HopeHarvest System</h3>
+
+        <p>
+            A data-driven system developed to organize, monitor, and analyse
+            community support records. The system helps transform collected
+            information into meaningful insights that support planning and
+            decision-making.
+        </p>
+
+        <div class="tech-stack">
+
+            <span>SQL Server</span>
+            <span>C#</span>
+            <span>Data Analysis</span>
+            <span>Reporting</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/theArchitect27/Hope-Harvest-database-system" target="_blank">
+
+                <i class="fa-brands fa-github"></i>
+
+                View Source Code
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section id="education">
+
+    <div class="container">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>2023 - Present</span>
+
+                    <h3>BSc Information Technology</h3>
+
+                    <h4>North-West University</h4>
+
+                    <p>
+                        Final-year student with interests in Software Development,
+                        Data Analytics and Cybersecurity.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>2026</span>
+
+                    <h3>MWR Cybersecurity Programme</h3>
+
+                    <p>
+                        Completed practical cybersecurity training including web
+                        security, vulnerability assessment and secure coding.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>Current</span>
+
+                    <h3>Personal Portfolio & Projects</h3>
+
+                    <p>
+                        Building and deploying full-stack software,
+                        cybersecurity and data analytics projects.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="achievements">
+
+    <div class="container">
+
+        <h2 class="section-title">Achievements</h2>
+
+        <p class="section-subtitle">
+            Some milestones that reflect my technical growth, teamwork, and commitment to continuous learning.
+        </p>
+
+        <div class="achievement-grid">
+
+            <!-- Hackathon -->
+
+            <div class="achievement-card">
+
+                <i class="fa-solid fa-trophy"></i>
+
+                <h3>2nd Place - Internal Hackathon</h3>
+
+                <p>
+                    Awarded second place for developing an innovative technology solution
+                    during an internal hackathon, demonstrating teamwork,
+                    creativity and problem-solving skills.
+                </p>
+
+                <a href="assets/certificates/hackathon.jpg"
+                   target="_blank">
+
+                    <i class="fa-solid fa-file-pdf"></i>
+
+                    View Certificate
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- ================= CERTIFICATES ================= -->
+
+     <section id="certifications">
+
+    <div class="container">
+
+        <h2 class="section-title">Certifications</h2>
+
+        <p class="section-subtitle">
+            Professional training completed to strengthen my knowledge in technology.
+        </p>
+
+        <div class="certificate-grid">
+
+            <div class="certificate-card">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <h3>MWR Certificate of Completion</h3>
+
+                <p>
+                    Practical cybersecurity training covering web security,
+                    vulnerability assessment and secure coding.
+                </p>
+
+                <a href="assets/certificates/image.png"
+                   target="_blank">
+                    View Certificate
+                </a>
+
+            </div>
+
+            <div class="certificate-card">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <h3>Data Analytics Essentials</h3>
+
+                <p>
+                    Learned the fundamentals of data analysis,
+                    data visualization and analytical thinking.
+                </p>
+
+                <a href="assets/certificates/data.jpg"
+                   target="_blank">
+                    View Certificate
+                </a>
+
+            </div>
+
+            <div class="certificate-card">
+
+                <i class="fa-solid fa-lock"></i>
+
+                <h3>Introduction to Cybersecurity</h3>
+
+                <p>
+                    Built a foundation in cybersecurity concepts,
+                    cyber threats and digital security best practices.
+                </p>
+
+                <a href="assets/certificates/cyber.jpg"
+                   target="_blank">
+                    View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<section id="contact">
+
+    <div class="container">
+
+        <h2 class="section-title">Let's Connect</h2>
+
+        <p class="section-subtitle">
+            I'm currently seeking graduate opportunities, internships, and exciting technology projects. Feel free to reach out!
+        </p>
+
+        <div class="contact-grid">
+
+            <!-- Email -->
+
+            <div class="contact-card">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Email</h3>
+
+                <a href="mailto:sarahmahlatse57@gmail.com">
+                    sarahmahlatse57@gmail.com
+                </a>
+
+            </div>
+
+            <!-- LinkedIn -->
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                <h3>LinkedIn</h3>
+
+                <a href="https://www.linkedin.com/in/mahlatse-molepo-5368a1299/"
+                   target="_blank">
+
+                    View Profile
+
+                </a>
+
+            </div>
+
+            <!-- GitHub -->
+
+            <div class="contact-card">
+
+                <i class="fa-brands fa-github"></i>
+
+                <h3>GitHub</h3>
+
+                <a href="https://github.com/codeByMahlatse"
+                   target="_blank">
+
+                    github.com/codeByMahlatse
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
     </main>
+
+    <!-- ================= FOOTER ================= -->
 
     <footer>
 
@@ -104,4 +772,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
